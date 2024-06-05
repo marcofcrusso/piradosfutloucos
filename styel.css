@@ -12,7 +12,7 @@
 
 
 body {
-    background-color: #1ED760;
+    background-color: #2E282A;
 }
 
 .container-grid {
@@ -27,23 +27,83 @@ body {
 header {
 
     height: 100px;
-    width: 1300px;
+   
     background-color: #F8F7F9;
 
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 
 }
 
-menu {
+
+.menu {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 100px;
+    gap: 80px;
+    
 }
 
+.menu a {
+    font-family: "SuezOne";
+    font-size: 25px;
+    color: #2E282A;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+    transition: text-decoration 500ms ease;
+}
 
+.box-links:hover a {
+    color: #1ED760;
+}
 
+.sobre {
+    width: 1300px;
+    height: 430px;
+    background-color: #1ED760;
+    margin: auto;
+    /* margin-top: 50px;
+    border-radius: 20px; */
+    /* display: flex; 
+    justify-content: center;  */
+    /* align-items: center; 
+    /* Se necessário, ajuste outras propriedades CSS da seção .sobre */
+}
+
+.sobre {
+    position: relative; /* Para permitir o posicionamento relativo */
+    text-align: left; /* Alinha o conteúdo à esquerda */
+}
+
+#logo2 {
+    position: absolute; /* Permite o posicionamento absoluto */
+    left: 50%; /* Move o elemento para o centro horizontal */
+    top: 50%; /* Move o elemento para o centro vertical */
+    transform: translate(-50%, -50%); /* Retorna o elemento à sua posição central */
+}
+
+.apresentacao {
+    width: 1300px;
+    height: 320px;
+    background-color: #2b7c49;
+    margin: auto;
+    
+}
+
+#apresentacao {
+    padding: 60px;
+}
+
+.historia-pagina {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.historia-pagina p {
+    font-family: "SuezOne";
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 10px;
+}
 
