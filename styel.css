@@ -84,7 +84,7 @@ header {
 .apresentacao {
     width: 1300px;
     height: 320px;
-    background-color: #2b7c49;
+    background-color: #1ED760;
     margin: auto;
     
 }
@@ -105,5 +105,26 @@ header {
     text-align: left;
     padding-left: 5px;
     padding-top: 10px;
+}
+
+.apresentacao {
+    position: relative; /* Define a posição relativa para que os retângulos posicionados absolutamente sejam relativos a esta seção */
+}
+
+.retangulo-superior, .retangulo-inferior {
+    width: 1200px;
+    height: 20px;
+    background-color: #2E282A; /* Ou qualquer cor que você deseje */
+    position: absolute; /* Define a posição absoluta */
+    border-radius: 10px;
+   
+}
+
+.retangulo-superior {
+    top: 0; /* Posiciona o retângulo superior no topo da seção */
+}
+
+.retangulo-inferior {
+    bottom: 0; /* Posiciona o retângulo inferior na parte inferior da seção */
 }
 
